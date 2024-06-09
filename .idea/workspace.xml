@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966fb9cc-b3c4-498c-bf70-f61f8902a364" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/Functions.kt" afterDir="false" />
+    <list default="true" id="966fb9cc-b3c4-498c-bf70-f61f8902a364" name="Changes" comment="Functions">
+      <change afterPath="$PROJECT_DIR$/src/Classes/Book.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classes/SimpleSpice.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +18,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Functions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +46,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2h0p7Jl7aXNlaJcva9ryF3JXYHb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,15 +58,17 @@
     "Kotlin.AMSKt.executor": "Run",
     "Kotlin.FunctionsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.SimpleSpiceKt (1).executor": "Run",
+    "Kotlin.SimpleSpiceKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Functions",
+    "git-widget-placeholder": "Classes",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "F:/Users/Kylenz/Documents/Dominico/Programacion Movil I/Hello_Kotlrin/src/Main.kt",
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.FunctionsKt">
+  <component name="RunManager" selected="Kotlin.SimpleSpiceKt (1)">
     <configuration name="AMSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AMSKt" />
       <module name="Hello_Kotlrin" />
@@ -80,8 +85,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleSpiceKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spices.SimpleSpiceKt" />
+      <module name="Hello_Kotlrin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSpiceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classes.SimpleSpiceKt" />
+      <module name="Hello_Kotlrin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SimpleSpiceKt (1)" />
+        <item itemvalue="Kotlin.SimpleSpiceKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.AMSKt" />
       </list>
@@ -120,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717116859260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Functions">
+      <option name="closed" value="true" />
+      <created>1717451376295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717451376295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit, Hello Kotlin" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functions" />
   </component>
 </project>
