@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966fb9cc-b3c4-498c-bf70-f61f8902a364" name="Changes" comment="Classes">
-      <change afterPath="$PROJECT_DIR$/src/beyond_the_basica/beyondthebasics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beyond_the_basica/buildings.kt" afterDir="false" />
+    <list default="true" id="966fb9cc-b3c4-498c-bf70-f61f8902a364" name="Changes" comment="Beyond the basics">
+      <change afterPath="$PROJECT_DIR$/src/functionalManipulation/functionalManipulation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Book.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/SimpleSpice.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beyond_the_basica/beyondthebasics.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beyond_the_basica/buildings.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Classes" />
+        <entry key="$PROJECT_DIR$" value="Kotlin-Essentials-Beyond-the-Basics" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,12 +61,13 @@
     "Kotlin.BeyondthebasicsKt (1).executor": "Run",
     "Kotlin.BeyondthebasicsKt.executor": "Run",
     "Kotlin.BuildingsKt.executor": "Run",
+    "Kotlin.FunctionalManipulationKt.executor": "Run",
     "Kotlin.FunctionsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.SimpleSpiceKt (1).executor": "Run",
     "Kotlin.SimpleSpiceKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Kotlin-Essentials-Beyond-the-Basics",
+    "git-widget-placeholder": "Functional-Manipulation",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "F:/Users/Kylenz/Documents/Dominico/Programacion Movil I/Hello_Kotlrin/src/Main.kt",
@@ -83,7 +80,7 @@
       <recent name="F:\Users\Kylenz\Documents\Dominico\Programacion Movil I\Hello_Kotlrin\src\Classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BuildingsKt">
+  <component name="RunManager" selected="Kotlin.FunctionalManipulationKt">
     <configuration name="BeyondthebasicsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beyond_the_basica.BeyondthebasicsKt" />
       <module name="Hello_Kotlrin" />
@@ -105,6 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionalManipulationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalManipulation.FunctionalManipulationKt" />
+      <module name="Hello_Kotlrin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleSpiceKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spices.SimpleSpiceKt" />
       <module name="Hello_Kotlrin" />
@@ -112,20 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleSpiceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes.SimpleSpiceKt" />
-      <module name="Hello_Kotlrin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunctionalManipulationKt" />
         <item itemvalue="Kotlin.BuildingsKt" />
         <item itemvalue="Kotlin.BeyondthebasicsKt (1)" />
         <item itemvalue="Kotlin.BeyondthebasicsKt" />
         <item itemvalue="Kotlin.SimpleSpiceKt (1)" />
-        <item itemvalue="Kotlin.SimpleSpiceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717957331960</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Beyond the basics">
+      <option name="closed" value="true" />
+      <created>1717965477221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717965477221</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +202,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Functions" />
     <MESSAGE value="Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classes" />
+    <MESSAGE value="Beyond the basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beyond the basics" />
   </component>
 </project>
