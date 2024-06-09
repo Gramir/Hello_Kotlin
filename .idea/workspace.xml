@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966fb9cc-b3c4-498c-bf70-f61f8902a364" name="Changes" comment="Functions">
-      <change afterPath="$PROJECT_DIR$/src/Classes/Book.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/SimpleSpice.kt" afterDir="false" />
+    <list default="true" id="966fb9cc-b3c4-498c-bf70-f61f8902a364" name="Changes" comment="Classes">
+      <change afterPath="$PROJECT_DIR$/src/beyond_the_basica/beyondthebasics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beyond_the_basica/buildings.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Book.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/SimpleSpice.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="package-info" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -25,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Functions" />
+        <entry key="$PROJECT_DIR$" value="Classes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,30 +62,44 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.AMSKt.executor": "Run",
+    "Kotlin.BeyondthebasicsKt (1).executor": "Run",
+    "Kotlin.BeyondthebasicsKt.executor": "Run",
+    "Kotlin.BuildingsKt.executor": "Run",
     "Kotlin.FunctionsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.SimpleSpiceKt (1).executor": "Run",
     "Kotlin.SimpleSpiceKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Classes",
+    "git-widget-placeholder": "Kotlin-Essentials-Beyond-the-Basics",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "F:/Users/Kylenz/Documents/Dominico/Programacion Movil I/Hello_Kotlrin/src/Main.kt",
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.SimpleSpiceKt (1)">
-    <configuration name="AMSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AMSKt" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Users\Kylenz\Documents\Dominico\Programacion Movil I\Hello_Kotlrin\src\beyond_the_basica" />
+      <recent name="F:\Users\Kylenz\Documents\Dominico\Programacion Movil I\Hello_Kotlrin\src\Classes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.BuildingsKt">
+    <configuration name="BeyondthebasicsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beyond_the_basica.BeyondthebasicsKt" />
       <module name="Hello_Kotlrin" />
-      <option name="PROGRAM_PARAMETERS" value="Kotlin" />
-      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
+    <configuration name="BeyondthebasicsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beyond_the_basics.BeyondthebasicsKt" />
+      <module name="Hello_Kotlrin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildingsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beyond_the_basica.BuildingsKt" />
       <module name="Hello_Kotlrin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BuildingsKt" />
+        <item itemvalue="Kotlin.BeyondthebasicsKt (1)" />
+        <item itemvalue="Kotlin.BeyondthebasicsKt" />
         <item itemvalue="Kotlin.SimpleSpiceKt (1)" />
         <item itemvalue="Kotlin.SimpleSpiceKt" />
-        <item itemvalue="Kotlin.FunctionsKt" />
-        <item itemvalue="Kotlin.AMSKt" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717451376295</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Classes">
+      <option name="closed" value="true" />
+      <created>1717957331960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717957331960</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +196,7 @@
     <MESSAGE value="First Commit, Hello Kotlin" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions" />
+    <MESSAGE value="Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes" />
   </component>
 </project>
